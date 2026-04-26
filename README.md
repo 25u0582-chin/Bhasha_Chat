@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Multilingual Real-Time Chat Platform
 
 This repository contains a hackathon-ready backend scaffold for a many-to-many multilingual chat system.
@@ -48,3 +49,6 @@ GET /health
 =======
 # Bhasha_Chat
 >>>>>>> 57c816f6193ec9b5425001f8b55f0e1e2c6ed0fd
+=======
+# Bhasha_Chat
+>>>>>>> 47e23a04ed8378bf5e2601054254bc26256084c6
