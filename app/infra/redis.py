@@ -1,0 +1,11 @@
+from __future__ import annotations
+
+from redis.asyncio import Redis
+
+from app.storage import RedisPreferenceCache, RedisTranslationCache
+
+
+class RedisClientFactory:
+    @staticmethod
+    def from_url(redis_url: str) -> Redis:
+        return Redis.from_url(redis_url, decode_responses=True)
