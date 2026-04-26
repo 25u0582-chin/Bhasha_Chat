@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multilingual Real-Time Chat Platform
 
 This repository contains a hackathon-ready backend scaffold for a many-to-many multilingual chat system.
@@ -44,3 +45,6 @@ GET /health
 - The default translation provider is a mock adapter so the scaffold works immediately.
 - Swap in IndicTrans2 or an API-backed provider by implementing the `TranslationProvider` protocol in `app/services/translation.py`.
 - Swap in Redis, PostgreSQL, and MongoDB adapters through the repository and cache protocols in `app/storage.py`.
+=======
+# Bhasha_Chat
+>>>>>>> 57c816f6193ec9b5425001f8b55f0e1e2c6ed0fd
